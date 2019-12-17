@@ -2,12 +2,14 @@
 using System.Xml.Serialization;
 namespace YrNoForecast
 {
+    
+    /// <summary>
+    /// According to Yr.no guidelines, you MUST create the link to the URL as specified in link id="overview" ..
+    /// The other links that are specified in Links, you can choose whether to link or not.
+    ///</summary>
+ 
     [Serializable]
 
-    /// <summary>
-    /// Link to web page of city 
-    /// </summary>
-   
     public class Link
     {
         /// <summary>

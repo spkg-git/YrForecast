@@ -23,6 +23,8 @@ namespace Test
                     Assert.IsNotNull(result.Credit);
                     Assert.IsNotNull(result.links);
                     Assert.AreEqual(5, result.links.Count);
+                    Assert.IsNotNull(result.Meta);
+                    Assert.IsNotNull(result.Sun);
                 }
                 catch (Exception ex)
                 {
